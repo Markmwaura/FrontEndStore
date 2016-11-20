@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="assets/css/foundation-icons.css">
     </head>
     <body>
-        <header>
-            <div class="row align-right">
+        <header id="home" >
+            <div class="row align-right align-top">
                 <div class="medium-4 columns text-center">
                     <img src="assets/img/logo.svg" alt=""/>
                 </div>
@@ -42,35 +42,36 @@
         
         <div id="main-navigation" class="main-navigation">
         
-        <div class="responsive-menu" data-resposive-toggle="main-menu" data-hide-for="medium">
-            <button class="menu-icon" type="button" data-toggle></button>
+            <div class="responsive-menu" data-resposive-toggle="main-menu" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle></button>
         
+            </div>
         
+            <nav id="main-menu" class="row">
+        
+                <ul class="menu vertical expanded text-center">
+                    <li >
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about-us">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#our-designs">Our Designs</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#send-your-design">Send your design</a>
+                    </li>
+        
+                </ul>
+        
+            </nav>
         </div>
         
-        <nav id="main-menu" class="row">
-        
-        
-            <ul class="menu vertical expanded text-center">
-                <li class="active">
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Our Designs</a>
-                </li>
-                <li>
-                    <a href="#">Testimonials</a>
-                </li>
-                <li>
-                    <a href="#">Send your design</a>
-                </li>
-        
-            </ul>
-        
-        </nav></div>
+        <div id="slider" class="row column" data-magellan-target="slider">
         
         <div class="row">
             <div class="orbit" role="region" aria-label="Our Promos" data-orbit data-options="animInFromLeft:fade-in;animInFromRight:fade-in; animOutToLeft:fade-out;animOutToRight:fade-out">
@@ -111,7 +112,9 @@
             </div>
         </div>
         
-        <div class="about-us">
+        </div>
+        
+        <div id="about-us" class="about-us" data-magellan-target="about-us">
         <h2 class="text-center">About Us</h2>
         <div class="row medium-unstack text-center">
             <div class="small-6 columns">
@@ -149,8 +152,8 @@
         
         </div>
         
-        <div class="row">
-            <div class="our-designs">
+        <div class="row column">
+            <div id="our-designs" class="our-designs" data-magellan-target="our-designs">
         
                 <div class="columns">
         
@@ -428,7 +431,7 @@
         
         </div>
         
-        <div class="testimonials">
+        <div id="testimonials" class="testimonials" data-magellan-target="testimonials">
         
             <h2 class="text-center">
                 Testimonials</h2>
@@ -458,7 +461,7 @@
             </div>
         </div>
         
-        <div class="send-your-design">
+        <div id="send-your-design" class="send-your-design" data-magellan-target="send-your-design">
         
             <h2 class="text-center">Send your design</h2>
         
