@@ -40,7 +40,7 @@
             </div>
         </header>
         
-        <div class="main-navigation">
+        <div id="main-navigation" class="main-navigation">
         
         <div class="responsive-menu" data-resposive-toggle="main-menu" data-hide-for="medium">
             <button class="menu-icon" type="button" data-toggle></button>
@@ -62,11 +62,12 @@
                     <a href="#">Our Designs</a>
                 </li>
                 <li>
-                    <a href="#">Send your design</a>
-                </li>
-                <li>
                     <a href="#">Testimonials</a>
                 </li>
+                <li>
+                    <a href="#">Send your design</a>
+                </li>
+        
             </ul>
         
         </nav></div>
@@ -431,11 +432,11 @@
         
             <h2 class="text-center">
                 Testimonials</h2>
-            <div class="row">
-                <div class="columns">
+            <div class="row align-middle medium-unstack">
+                <div class="columns small-order-2 medium-order-1">
                     <img src="assets/img/testimonials_image.jpg" alt=""/>
                 </div>
-                <div class="columns">
+                <div class="columns small-order-1 medium-order-2">
                     <div class="orbit" role="region" aria-label="Our testimonials" data-orbit>
                         <ul>
                             <li class="orbit-slide">
@@ -456,6 +457,92 @@
                 </div>
             </div>
         </div>
+        
+        <div class="send-your-design">
+        
+            <h2 class="text-center">Send your design</h2>
+        
+            <div class="row align-center">
+                <div class="medium-8 columns">
+                    <div class="form-container">
+                        <form class="">
+                            <div class="row align-center">
+                                <div class="medium-8 small-10 columns">
+        
+                                    <legend>
+                                        We can print your design!Just fill the form below
+                                    </legend>
+                                    <label>Name
+                                        <input type="text" placeholder="Your Name"/></label>
+                                </div>
+                            </div>
+        
+                            <div class="row align-center">
+                                <div class="medium-8 small-10 columns">
+        
+                                    <label>Email
+                                        <input type="email" placeholder="Your Email"/></label>
+                                </div>
+                            </div>
+        
+                            <div class="row align-center">
+                                <div class="medium-8 small-10 columns">
+        
+                                    <label>Message
+                                        <textarea type="email" placeholder="Your Message"></textarea></label>
+                                </div>
+                            </div>
+                            <div class="row align-center">
+                                <div class="medium-8 small-10 columns">
+        
+                                    <label for="uploadFile" class="button">Upload File</label>
+                                    <input type="file" id="uploadFile" class="show-for-sr" />
+                                </div>
+                            </div>
+                            <div class="row align-center">
+                                <div class="medium-8 small-10 columns">
+        
+                                    <input type="submit" id="uploadfile" class="button secondary"value="Send" />
+                                </div>
+                            </div>
+        
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="row align-spaced align-middle">
+                <div class="medium-4 columns">
+                    <p>
+                        FrontEnd Store 2016
+                    </p>
+                </div>
+                <div class="medium-4 columns">
+                    <ul class="menu social align-right">
+        
+                        <li>
+                            <a href="#">
+                                <i class="fi-social-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fi-social-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fi-social-instagram"></i>
+                            </a>
+                        </li>
+        
+                    </ul>
+        
+                </div>
+            </div>
+        </footer>
         
 
         <script src="assets/js/app.js"></script>
